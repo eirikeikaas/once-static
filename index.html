@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<title>Once Bitter</title>
 		<script src="https://use.typekit.net/rai5oxj.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -25,11 +25,20 @@
 				border-top: 1px solid #4a4c4c;
 				font-size: 2.5em;
 			}
+			@media(max-device-width:736px){
+				#container {
+					width: auto;
+					margin: 0 15px;
+				}
+				h1 {
+					font-size: 1.8em;
+				}
+			}
 		</style>
 	</head>
 	<body>
 		<div id="container">
-			<img src="logo.png">
+			<img src="logo.png" width="299">
 			<h1>More info coming<br />very soon!</h1>
 		</div>
 	</body>
